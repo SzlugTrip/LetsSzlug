@@ -6,3 +6,4 @@
 2) ma dzialac pokazywanie meetingów na mapie
       - mozna wybrac zasieg dzialania skanera
       - mozna wybrac miejsowosc w której dziala skaner
+3) obsluga aparatu, API google maps, bazy, system rejestracji / logowania, polaczenie z bitmoji
