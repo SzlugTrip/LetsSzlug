@@ -1,0 +1,8 @@
+31 Stycznia 2018 roku do godziny 24:00 na google play ma pojawic sie oficajlna wersja Let's szlug
+1) ma dzialac dodawanie meetingu
+      - zdjecie
+      - notatka do zdjecia
+      - czas rozpoczecia i zakonczenia
+2) ma dzialac pokazywanie meetingów na mapie
+      - mozna wybrac zasieg dzialania skanera
+      - mozna wybrac miejsowosc w której dziala skaner
