@@ -1,0 +1,34 @@
+<ion-header>
+        <ion-navbar>
+            <ion-toolbar>
+                <ion-title>Zaszluguj</ion-title>
+            </ion-toolbar>
+        </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <form (action)="registerUser()"> 
+        <ion-item margin-top>
+            <!-- logo -->
+        </ion-item>
+        <ion-item>
+            <ion-input placeholder="Login" type="text" text-center></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-input placeholder="Hasło" type="password" text-center></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-input placeholder="Potwierdź hasło" type="password" text-center></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-input placeholder="E-mail" type="email" text-center></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-input placeholder="Potwierdź e-mail" type="email" text-center></ion-input>
+        </ion-item>
+        <ion-item margin-top text-center no-lines>
+            <ion-buttons >
+                <button ion-button round large type="submit">Zarejestruj sie</button>
+            </ion-buttons>
+        </ion-item>
+    </form>
+</ion-content>

@@ -1,0 +1,25 @@
+<ion-content padding>
+    <form (ngSubmit)="loginUser()">
+      <ion-item margin-top>
+        <!-- logo -->
+      </ion-item>
+      <ion-item>
+          <ion-input placeholder="Login" type="text" name='login' [(ngModel)]="loginForm.login" text-center></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-input placeholder="Hasło" type="password" name='password' [(ngModel)]="loginForm.password" text-center></ion-input>
+      </ion-item>
+      <ion-item no-lines margin-top>
+            <ion-label color="primary">Zapamietaj mnie</ion-label>
+            <ion-checkbox class="rememberCheckbox"></ion-checkbox>
+      </ion-item>
+      <ion-item margin-top text-center>
+          <button ion-button round large type='submit'>Zaszluguj</button>
+      </ion-item>
+    </form>
+      <ion-item margin-top>
+          <ion-label color="primary" inline text-center>Nie masz konta? <br>
+          <button ion-button round small inline (click)="registerRoute()">Zarejestruj sie</button></ion-label>
+      </ion-item>
+    
+</ion-content>
