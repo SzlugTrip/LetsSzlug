@@ -3,6 +3,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
+import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { MapsComponent } from '../pages/maps/maps.component';
@@ -13,17 +14,19 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
+    HomePage,
     LoginPage,
     MapsComponent,
-    RegisterPage
+    RegisterPage,    
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],
-  entryComponents: [
+  entryComponents: [    
     MyApp,
+    HomePage,
     LoginPage,
     RegisterPage,
     MapsComponent
