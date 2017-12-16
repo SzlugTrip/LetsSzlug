@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { MapsComponent } from '../maps/maps.component';
+import { MapaPage } from '../mapa/mapa';
 import { RegisterPage } from '../register/register';
 
 @Component({
@@ -17,7 +17,7 @@ export class LoginPage {
   loginUser(){
     //check database
     if(true){
-      this.navCtrl.push(MapsComponent);
+      this.navCtrl.push(MapaPage);
       console.log(this.loginForm);
     }
   }
