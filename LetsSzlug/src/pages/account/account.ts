@@ -13,4 +13,8 @@ export class AccountSettings {
 
   }
 
+  return(){
+    this.navCtrl.pop();
+  }
+
 }
